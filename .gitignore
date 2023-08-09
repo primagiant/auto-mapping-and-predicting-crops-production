@@ -1,0 +1,11 @@
+*.tif
+*.zip
+*.h5
+*.joblib
+rmtSnsg/
+data/
+library/
+output/
+qgis/
+model/
+**__pycache__
