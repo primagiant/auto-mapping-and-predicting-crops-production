@@ -44,7 +44,7 @@ def brightness_sentinel_2_tasseled_cap(blue, green, red, nir, mir1, mir2):
     return brightness
 
 
-def greeness_sentinel_2_tasseled_cap(blue, green, red, nir, mir1, mir2):
+def greenness_sentinel_2_tasseled_cap(blue, green, red, nir, mir1, mir2):
     greeness = (blue * -0.3599) + (green * -0.3533) + (red * -0.4734) + \
         (nir * 0.6633) + (mir1 * 0.0087) + (mir2 * -0.2856)
     return greeness

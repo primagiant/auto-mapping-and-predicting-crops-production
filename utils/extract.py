@@ -46,9 +46,9 @@ def extract_data_from_polygon(raster_path, geojson_path, output_folder):
 
 if __name__ == "__main__":
 
-    raster_path = "./qgis/tassled_cap_jan_4326.tif"
-    geojson_path = './shapefile/geoJson/newGeojson.geojson'
-    output_folder = './output/rgb/crop/2020/jan-50-tc'
+    raster_path = "./qgis/2020/jan/stack_bands.tif"
+    geojson_path = './shapefile/geoJson/100_each_4326.geojson'
+    output_folder = './output/rgb/crop/2020/all-100-poligon'
 
     # make folder if not exits
     if not os.path.exists(output_folder):
